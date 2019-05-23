@@ -15,7 +15,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Parseo {
-	public static ArrayList<Servicio> parseoExcel() {
+	public static ArrayList<Servicio> parseExcel() {
 		File f = new File("tabla.xlsx");
 
 		FileInputStream fl;

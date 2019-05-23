@@ -2,7 +2,7 @@ import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
-public class CrearScript {
+public class Script {
 	public static String crearScript(ArrayList<Servicio> lista_servicios) {
 		String script = "";
 		// Comprobacion de parseo en una base de datos:
