@@ -1,0 +1,111 @@
+CREATE TABLE paquetes_off_service (paquetes VARCHAR(255), codigo VARCHAR(255),description VARCHAR(255), incluye VARCHAR(255), excluye VARCHAR(255), cuantificable VARCHAR(255),precio_lm VARCHAR(255), precio_1h VARCHAR(255),precio_next VARCHAR(255), tips VARCHAR(255));
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Otros trabajos manitas','MAN-OTM','- Cuéntanos que servicio de manitas necesitas y el profesional que elijas te enviará un presupuesto estimado. Si tienes cualquier duda, podrás resolverla con él a través de nuestro chat.','N/A','N/A','Estimado por PRO, a partir de texto libre del cliente.','N/A','N/A','N/A',''); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Desatascar lavabo o fregadero','MAN-DLF','- ¿Lavabo o fregadero atascados? Selecciona este paquete y elige a uno de los profesionales que te mostraremos en el siguiente paso.',' - Identificar la causa del atasco.
+ - Proceder al desatasco con las herramientas o los productos químios necesarios, provistos por el profesional. 
+ - Comprobar que el funcionamiento es correcto. ','- Cambio de válvulas / sifones / instalaciones.                                           
+- Desatasco en bajante de comunidad.','No cuantificable','45','N/A','N/A',''); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Desatascar inodoro','MAN-DI','- ¿Inodoro atascado? Selecciona este paquete y elige a uno de los especialistas que te sugeriremos en el siguiente paso.',' - Identificar la causa del atasco.
+ - Proceder al desatasco con las herramientas o los productos químicos necesarios, provistos por el profesional. 
+ - Comprobar que el funcionamiento es correcto. ',' - Desatasco en bajante de comunidad','No cuantificable','45','N/A','N/A',''); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Silicona mámpara','MAN-SM','- Si necesitas cambiar o poner silicona en tu mámpara de baño, elige este paquete y selecciona a uno de los profesionales que te recomendaremos en el siguiente paso.',' 
+ - Retirada retirada de la silicona antigua.
+ - Silicona y aplicado.                                                                                 
+ - Limpieza de silicona hasta donde es posible acceder sin desmontar la mampara.',' - La marca de la silicona será elegida por el proveedor y el color elegido por el cliente. 
+ - Modificaciones y/o arreglos o ajustes en la mampara.','No cuantificable','45','N/A','N/A',''); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Instalar o cambiar grifo','MAN-ICG','- Instala o sustituye un grifo de cocina o baño con uno de los especialistas que te recomendaremos en el siguiente paso.',' - Retirar el grifo anterior, en caso de que lo hubiera. 
+ - Instalar el nuevo grifo, provisto por el cliente. 
+ - Comprobar que el grifo funciona correctamente. ',' - Grifo nuevo (debe ser provisto por el cliente).
+ - Desmontar muebles y sanitarios para retirar el viejo, si fuera necesario.              
+ - Grifos en el exterior.                                                              
+ - Latiguillos nuevos.                                                 ','No cuantificable','45','N/A','N/A',''); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Montar muebles','MAN-MM','- Montaje de uno o varios muebles, según el número de horas contratadas.',' - Montaje de muebles en kit.          
+ - Fijacion a pared por seguridad si mide mas de 1 metro.                            
+ - Retirada de embalajes de los muebles montados.',' - Muebles a montar. 
+ - Traslado de los muebles.                                                                                   
+ - Desmontaje de mobiliario antiguo.                                           
+ - Retirada de mobiliario antiguo.','Cuantificable','N/A','45','22',''); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Colgar cuadros','MAN-CC','- Colgar uno o varios cuadros, según el número de horas contratadas.',' - Materiales como escarpias y tacos. 
+',' - Cuadros a colgar. 
+ - Uso de andamiajes si fueran necesarios.                                       
+ - Tapar agujeros de cuadros antiguos. 
+ - Colgar cuadros que sean obras de arte de alto valor.','Cuantificable                         ','N/A','45','22','Aprox 3 cuadros la hora'); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Instalar ventilador de techo','MAN-IVT','- Instala tu nuevo ventilador de techo con uno de los profesionales que te ofreceremos en el siguiente paso.','
+- Retirada del ventilador de techo anterior. 
+- Montaje del nuevo ventilador, provisto por el cliente, en punto de luz habilitado. 
+',' - Ventilador de techo.
+ - Modificar punto de luz y tomas. 
+ - Instalación en caso de que el techo no esté en buenas condiciones y no tenga soporte apto para el montaje.','No cuantificable','45','N/A','N/A',''); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Poner cortinas','MAN-PC','- Colocación de una o varias cortinas provistas por el cliente, según las horas contratadas.','
+ - Montaje de cortinas provistas por el cliente en soportes aptos para su instalación.
+',' - Trabajos de riesgo por altura, andamios o exteriores.
+ - Cortinas, barra y materiales.                                                          
+ - Corte de barra de cortina y/o cortina.','Cuantificable                                   ','N/A','45','22','Aprox 2 cortinas la hora'); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Colgar TV','MAN-CT','- Culega tu televisión a la pared seleccionando este paquete y eligiendo a uno de los profesionales que te sugeriremos a continuación.','
+- Colgar la TV y asegurarla. 
+- Esconder los cables con material provisto por el profesional. Regleta para cables basica hasta 2 metros.
+',' - Televisión. 
+ - Casos excepcionales según el material de pared.
+ - Conexiones y cables. 
+ - Realizar rozas en pared.                                                         
+ - Regleta para esconder cables.','No cuantificable','65','N/A','N/A','Instalacion de regleta mas de 2 metros, 14€ cada 2metros'); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Instalacion de lámpara','MAN-IL','- ¿Lámpara nueva por colgar? Selecciona este paquete e instálala con el profesional que elijas en el siguiente paso.',' - Montaje en punto de luz habilitado, si el techo está en buenas condiciones, con soporte apto para el montaje.                  
+ - Comprobar si funciona correctamente.','- Lámpara.
+- Modificar punto de luz y tomas.','No cuantificable','55','N/A','N/A',''); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Instalacion plafones','MAN-IP','- ¿Necesitas instalar uno o varios plafones? Selecciona este paquete, elige al profesional que te interesa y chatea con él para reservar cita.',' - Perforaciones en pladur y escayola.
+ - Montaje en punto de luz habilitado.
+ - Comprobar si funcionan correctamente.                                   ',' - Modificación de tomas.                                                          
+ - Cable para unidades adicionales si no tuviera punto de luz','Cuantificable','N/A','45','22','Aprox 2 plafones la hora'); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Instalacion focos','MAN-IF','- Si necesitas instalar focos en tu hogar, echa un vistazo a los profesionales que van a hacerlo por ti y escoge el que más se adapte a tus necesidades.',' - Perforaciones en pladur y escayola.
+ - Montaje en punto de luz habilitado.
+ - Comprobar si funcionan correctamente.                                        ',' - Modificación de tomas.                                                                       
+ - Cable para unidades adicionales si no tuviera punto de luz.','Cuantificable','N/A','45','22','Calculo Cuantificable: Aprox 2 focos la hora'); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Instalar espejos','MAN-IE','- Instalación de uno o varios espejos preparados para colgar o fijar a la pared.','
+ - Materiales como escarpias y tacos. 
+ - Retirada de antiguos espejos adheridos, pegados a pared y/o colgados                                                                             
+ - Pegado con silicona.','- Retirada de antiguos espejos adheridos o pegados a pared (no colgados o fijados).  ','Cuantificable                              ','N/A','45','22','Calculo Cuantificable: Aprox 1 espejo la hora (con desmontaje de espejo pegado)'); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Desmontar muebles','MAN-DM','- Si quieres desmontar uno o varios muebles, selecciona este paquete y ponte en contacto con uno o varios de los profesionales que te mostraremos.',' - Desmontaje de muebles con kit.                                                    ',' - Desmontaje sin kit. 
+ - Traslado de muebles.                                                                   
+ - Embalaje de los mismos.                                                         
+ - Tapar agujeros de los muebles que estuvieran anclados. 
+ - Retirada de mueble.','No cuantificable','N/A','45','22','Calculo Cuantificable: Aprox 1.5 mueble/hora'); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Instalacion de estor o veneciana','MAN-IEV','- Para los que necesitan instalar uno o varios estores o venecianas. Selecciona el paquete y elige a uno de los profesionales que te mostraremos a continuación.',' - Instalación y comprobación de funcionamiento. 
+ - Montaje en soportes aptos para su instalación.                                ','- Trabajos de riesgo por altura, andamios o exteriores.
+- Estor o veneciana. ','Cuantificable                              ','N/A','45','22','Calculo Cuantificable: Aprox 2 estores/venecianas la hora'); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Instalación de toallero electrico','MAN-ITE','- ¿Has comprado un toallero eléctrico y quieres un servicio de instalación? Selecciona este paquete y elige a uno de los profesionales que te ofreceremos a continuación.','
+- Colgar toallero con kit y punto habilitado para enchufar.
+- Conexión a toma eléctrica existente y comprobación de funcionamiento. 
+','- Toallero eléctrico. 
+- Modifcación de tomas eléctricos','No cuantificable','45','N/A','N/A',''); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Ajuste puerta mueble de cocina','MAN-APMC','- Ajusta las puertas de tu cocina con uno de nuestros profesionales.',' - Ajuste de las puertas. 
+ - Herramientas necesarias para el ajuste. 
+ - Sustitución de bisagras.                           ',' - Las bisagras deben ser provistas por el cliente. ','Cuantificable','N/A','45','22',''); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Instalacion de cerrojo de puerta','MAN-ICP','- Instalación de cerrojo de puerta. Selecciona este paquete y elige a uno de los profesionales que te ofreceremos a continuación.',' - Instalación del cerrojo y comprobación de funcionamiento. 
+ - Herramientas necesarias para la instalación. ','- Cerrojo.
+- Servicio no válido para puertas acorazadas.','No cuantificable','45','N/A','N/A',''); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Poner o cambiar tiradores de puertas','MAN-PCTP','- Instala o cambia tiradores en una o más puertas con uno de nuestros profesionales.','- Retirada de los anteriores. 
+- Sustitución de la petaca (cerradura), si tienen el material.',' 
+ - Tiradores. Estos deben ser provistos por el cliente. 
+ - Fresados de puerta para hacer adaptaciones. 
+','Cuantificable','N/A','45','22',''); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Instalar accesorios de cocina y baño','MAN-IACB','- Instala todo tipo de accesorios en cocinas o baños con uno de los especialistas que te ofrecemos.','- Desmontaje de antiguos e instalación de los nuevos.','- Montaje sobre azulejos rotos.','Cuantificable','N/A','45','22',''); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Sustitución goma de entrada de agua electrodomesticos','MAN-SGEAE','- Cambia la goma de entrada de agua de cualquier electrodoméstico con uno de nuestros profesionales.',' - Movimiento de mobiliario. 
+ - Sustitución de goma de entrada. ',' - La goma debe ser suministrada por el cliente.
+ - Desmontaje de electrodomésticos si fuera necesario. ','No cuantificable','45','N/A','N/A',''); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Montar Colgadores y percheros','MAN-MCP','- ¿Necesitas poner o sustituir colgadores o percheros? Selecciona este paquete y elige a uno de los profesionales que te ofreceremos en el siguiente paso. ','- Desmontar de los antiguos y sustitución por los nuevos, provistos por el cliente.','- Montaje sobre azulejos rotos.','Cuantificable','N/A','45','22',''); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Rejillas de ventilación de pared','MAN-RVP','- Instala o cambia una o varias rejillas de ventilación de tus paredes con el profesional que elijas.','- Retirada de la rejilla anterior. 
+- Instalación de la nueva rejilla, provista por el cliente. ',' - No incluye remates de pintura.
+ - La rejilla debe ser provista por el cliente. ','Cuantificable','N/A','45','22',''); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Colgar estantes o baldas','MAN-CEB','- Instala o cambia baldas o estantes con uno de nuestros profesionales.',' - Instalacion hasta 2 baldas / estantes                                                
+ - Desmontaje de estantes / baldas antigua. 
+ - Herramienta para su instalación. ',' - Estantes o baldas a colgar.                                                                                      
+ - Uso de andamiajes si fueran necesarios.                                       
+ - Tapar agujeros de cuadros antiguos','Cuantificable','N/A','45','22',''); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Sustituir cisterna','MAN-SC','- Cambia la cisterna con uno de nuestros profesionales.',' - Instalación de nueva cisterna. 
+ - Desmontaje de de la antigua.                                         
+ - Herramientaz para su instalación.',' - Cisterna.
+ - Sustituiones de instalaciones o accesorios de inodoro (latiguillos, tapas, etc.)','No cuantificable','45','N/A','N/A',''); 
+INSERT INTO paquetes_off_service (paquetes,codigo,description,incluye,excluye,cuantificable,precio_lm,precio_1h,precio_next,tips) VALUES('Instalar caja fuerte','MAN-ICF','- Instala o cambia la caja fuerte con uno de nuestros profesionales.',' - Instalación de caja fuerte.
+ - Herramientas para su instalación.
+ - Tornilleria y tacos.                                                             
+ - Desmontaje de la antigua',' - Trabajos de albañileria.
+ - Caja fuerte.','No cuantificable','45','N/A','N/A',''); 
