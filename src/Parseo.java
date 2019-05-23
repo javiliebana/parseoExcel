@@ -26,20 +26,20 @@ public class Parseo {
 			XSSFSheet sheet = wb.getSheetAt(0);
 			ArrayList<Servicio> lista_servicios = new ArrayList<Servicio>();
 			Iterator<Row> rit = sheet.rowIterator();
-			
-			//saltamos la primera fila que son el nombre de las columnas
+
+			// saltamos la primera fila que son el nombre de las columnas
 			Row row = rit.next();
 
 			/*
 			 * for (Iterator<Row> rit = sheet.rowIterator(); rit.hasNext();) { problema:hay
-			 * 1000 filas y apareceria como null en el script solucion:como se el numero de
+			 * 1000 filas y apareceria como null en el script, solucion:como se el numero de
 			 * filas exacto, lo indico en el blucle
 			 */
 
 			for (int i = 1; i < 28; i++) {
 
-				Servicio s = new Servicio();
 				row = rit.next();
+				Servicio s = new Servicio();
 
 				s.setPaquete(getCellValueAsString(row.getCell(0)));
 				s.setCode(getCellValueAsString(row.getCell(1)));
